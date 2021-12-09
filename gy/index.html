@@ -1,506 +1,332 @@
-header {
-    position: sticky;
-    width: 100%;
-    height: 60px;
-    background: white;
-    top: 0;
-    z-index: 99999999;
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-}
-
-.shortcut {
-    display: flex;
-}
-
-.shortcut>li>a {
-    display: inline-block;
-    height: 60px;
-    line-height: 60px;
-    color: black;
-    margin: 0px 35px;
-}
-
-.shortcut li:nth-child(1) a {
-    color: #6ABAFF;
-}
-
-.shortcut li:hover a {
-    color: #6ABAFF;
-}
-
-.lbt {
-    position: relative;
-    width: 100%;
-    min-width: 1200px;
-    height: 840px;
-    overflow-x: hidden;
-}
-
-.cptx {
-    width: 100%;
-    height: 840px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-.cptx h3 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.cptx-main {
-    display: flex;
-    width: 1400px;
-    height: 540px;
-    /* background-color: pink; */
-    margin: 0 auto;
-}
-
-.cptx-main-right {
-    padding-top: 150px;
-}
-
-.dsj {
-    font-size: 18px;
-    color: #58AEE8;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.cptx-main-right p {
-    font-size: 14px;
-    margin: 5px 0px;
-}
-
-footer {
-    width: 100%;
-    height: 500px;
-    background-color: #00284D;
-    padding: 50px 0;
-}
-
-.footer-help {
-    display: flex;
-    width: 1200px;
-    height: 280px;
-    margin: 0 auto;
-    /* background-color: red; */
-    margin-bottom: 75px;
-}
-
-.footer-help div {
-    margin-right: 75px;
-}
-
-.cp p, .fa p, .lx h4 {
-    margin-bottom: 65px;
-    color: #55C8FF;
-}
-
-.lx p {
-    font-size: 14px;
-    color: #94D6FF;
-    margin-bottom: 15px;
-}
-
-.blank {
-    margin-top: 86px;
-}
-
-.cp dt, .blank dt {
-    font-size: 18px;
-    margin-bottom: 25px;
-    color: #55C8FF;
-}
-
-.cp dd, .blank dd, .fa dd {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.cp dd a, .blank dd a, .fa dd a {
-    color: white;
-}
-
-.join {
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    height: 40px;
-    margin: 0 auto;
-}
-
-.join a {
-    font-size: 20px;
-    color: white;
-}
-
-.line {
-    width: 1px;
-    height: 18px;
-    background-color: white;
-    margin: 0 20px;
-}
-
-.bq {
-    width: 1200px;
-    text-align: center;
-    color: #1CA1F4;
-    font-size: 14px;
-    margin: 0 auto;
-}
-
-.qrcode {
-    text-align: center;
-    color: white;
-}
-
-.qrcode img {
-    margin-top: 20px;
-}
-
-.qrcode p {
-    margin-top: 20px;
-}
-
-.lm {
-    width: 100%;
-    height: 700px;
-    /* font-family: 300; */
-    font-size: 28px;
-    text-align: center;
-}
-
-.lm p {
-    color: #666666;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
-
-.news {
-    width: 100%;
-    height: 700px;
-    background-color: #FAFAFA;
-    text-align: center;
-}
-
-.newsp>p {
-    font-size: 40px;
-    padding: 75px 0;
-    color: #666666;
-}
-
-.news-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
-
-.news1 {
-    margin-right: 50px;
-    margin-bottom: 30px;
-}
-
-.news2 {
-    margin-bottom: 20px;
-}
-
-.news3 {
-    margin-right: 50px;
-}
-
-.news1, .news2, .new3, .new4 {
-    position: relative;
-    width: 550px;
-    height: 120px;
-    /* background-color: pink; */
-    text-align: left;
-}
-
-.news1 img, .news2 img, .new3 img, .new4 img {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.news1 span, .news2 span, .news3 span, .news4 span {
-    font-size: 10px;
-    color: #999999;
-}
-
-.news1 span:nth-child(1), .news2 span:nth-child(1), .news3 span:nth-child(1), .news4 span:nth-child(1) {
-    display: inline-block;
-    width: 280px;
-    margin-bottom: 10px;
-}
-
-.news1-title, .news2-title, .news3-title, .news4-title {
-    float: right;
-    width: 360px;
-    height: 70px;
-}
-
-.news1-title-content, .news2-title-content, .news3-title-content, .news4-title-content {
-    padding-top: 10px;
-    border-top: 1px solid gray;
-}
-
-.news1-title-content p, .news2-title-content p, .news3-title-content, .news4-title-content {
-    font-size: 10px;
-    margin-top: 5px;
-}
-
-.newsp button {
-    width: 100px;
-    height: 30px;
-    outline: none;
-    background-color: #FAFAFA;
-    border: 1px solid #1D97FF;
-    text-align: center;
-    line-height: 30px;
-}
-
-.newsp>button>a {
-    display: inline-block;
-    width: 100px;
-    height: 30px;
-    color: #1D97FF;
-}
-
-.shortcut li:nth-child(2) {
-    position: relative;
-}
-
-.shortcut li:nth-child(2):hover .product {
-    display: block;
-}
-
-.product {
-    position: absolute;
-    top: 60px;
-    left: -50px;
-    width: 205px;
-    height: 356px;
-    font-size: 14px;
-    background-color: #fff;
-    /* text-align: center; */
-    display: none;
-    padding: 0 25px;
-}
-
-.product dl {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    /* height: 100px; */
-    border-bottom: 1px solid gray;
-    /* background-color: pink; */
-}
-
-.product dd {
-    text-align: center;
-}
-
-.shortcut li:nth-child(3) {
-    position: relative;
-}
-
-.shortcut li:nth-child(3):hover .project {
-    display: block;
-}
-
-.project {
-    position: absolute;
-    top: 60px;
-    left: -50px;
-    width: 220px;
-    height: 166px;
-    padding: 0 35px;
-    background: #fff;
-    display: none;
-}
-
-.project li {
-    margin-top: 10px;
-}
-
-.shortcut li:nth-child(5) {
-    position: relative;
-}
-
-.shortcut li:nth-child(5):hover .about {
-    display: block;
-}
-
-.about {
-    position: absolute;
-    top: 60px;
-    left: 20px;
-    width: 100px;
-    height: 166px;
-    /* padding: 0 35px; */
-    background: #fff;
-    display: none;
-    text-align: center;
-}
-
-.about li {
-    margin-top: 10px;
-}
-
-.lbt {
-    position: relative;
-}
-
-.dot {
-    position: relative;
-    top: 90%;
-    left: 45%;
-    width: 50%;
-}
-
-.dotul {
-    width: 450px;
-}
-
-.dotul li {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    list-style: none;
-    float: left;
-    border-radius: 20px;
-    margin-left: 15px;
-    /* z-index: 999; */
-    cursor: pointer;
-}
-
-.active {
-    background-color: orangered !important;
-}
-
-.alzs {
-    width: 100%;
-    height: 800px;
-    /* background-color: pink; */
-}
-
-.alzs>.w>p {
-    text-align: center;
-    font-size: 30px;
-    padding: 100px 0;
-    color: #999999;
-}
-
-.alzs-list {
-    height: 480px;
-    /* background-color: pink; */
-    overflow: hidden;
-}
-
-.alzs-list li {
-    float: left;
-    margin-right: 20px;
-    border-bottom: #4A8EFF 5px solid;
-    
-}
-.alzs-list a {
-    display: block;
-    width: 280px;
-    height: 480px;
-    font-size: 14px;
-    text-align: center;
-    background: #fff;
-    /* background: greenyellow; */
-    border-bottom: #4A8EFF 5px solid;
-
-}
-
-.alzs-list p {
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-.imgs {
-    display: flex;
-    position: absolute;
-    width: 300%;
-    height: 840px;
-    left: 0;
-    transition: .2s;
-}
-
-.img {
-    width: 100%;
-    background-size: cover;
-}
-
-.img:nth-child(1) {
-    background-image: url(/standard/耕耘科技/img/b1.jpg);
-}
-
-.img:nth-child(2) {
-    background-image: url(/standard/耕耘科技/img/b2.jpg);
-}
-
-.img:nth-child(3) {
-    background-image: url(/standard/耕耘科技/img/b3.jpg);
-}
-
-.img:nth-child(3) a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.dots {
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    bottom: 20px;
-    width: 10%;
-    z-index: 999;
-    right: 45%;
-}
-
-.dot {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    border-radius: 50%;
-    background-color: pink;
-}
-
-.jjfa {
-    width: 100%;
-    height: 840px;
-    position: relative;
-    text-align: center;
-    background: linear-gradient(skyblue,#5884FF);
-}
-
-.jjfa h2 {
-    padding-top: 50px;
-    margin-bottom: 20px;
-    color: white;
-}
-
-.jjfa>p {
-    color: white;
-    margin-bottom: 50px;
-}
-
-.jjfaa {
-    width: 1200px;
-    height: 550px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container w">
+            <div class="logo">
+                <a href="http://www.cloudpioneer.com.cn/index.html">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="shortcut">
+                <li><a href="http://www.cloudpioneer.com.cn/index.html">首页</a>
+                </li>
+                <li><a href="javascript:;">产品</a>
+                    <div class="product">
+                        <dl>
+                            <dt>大数据基础</dt>
+                            <dd><a href="http://www.cloudpioneer.com.cn/prod_dsjrh.html">大数据融合开发平台</a></dd>
+                            <dd><a href="http://www.cloudpioneer.com.cn/prod_hlwsj.html">互联网数据采集系统</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>大数据分析与可视化</dt>
+                            <dd><a href="http://www.cloudpioneer.com.cn/prod_sjfx.html">数据分析可视化系统</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>大数据应用</dt>
+                            <dd><a href="http://www.cloudpioneer.com.cn/prod_mtzy.html">媒体中央资源平台</a></dd>
+                            <dd><a href="http://www.cloudpioneer.com.cn/prod_mtcb.html">媒体传播洞察系统</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>行业应用</dt>
+                            <dd><a href="http://www.cloudpioneer.com.cn/prod_mtzy.html">新媒体运营平台</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li><a href="http://www.cloudpioneer.com.cn/solution.html?MTHYCF">解决方案</a>
+                    <ul class="project">
+                        <li><a href="http://www.cloudpioneer.com.cn/solution.html?MTHYCF">媒体行业中央厨房</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/solution.html?HLWCBGZYJC">媒体行业中央厨房</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/solution.html?DMPJJFA">DMP解决方案</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/solution.html?YDXMTHDYY">移动新媒体互动运营</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/solution.html?YDXMTJS">移动新媒体建设</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.cloudpioneer.com.cn/cases_list.html">案例</a></li>
+                <li><a href="http://www.cloudpioneer.com.cn/about_info.html">关于我们</a>
+                    <ul class="about">
+                        <li><a href="http://www.cloudpioneer.com.cn/news_list.html">新闻动态</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/about_info.html">公司简介</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/about_info.html#CONN6">合作伙伴</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/about_info.html#CONN7">联系我们</a></li>
+                        <li><a href="http://www.cloudpioneer.com.cn/about_job.html">加入我们</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 轮播图 -->
+    <div class="lbt">
+        <ul class="imgs">
+            <li class="img"></li>
+            <li class="img"></li>
+            <li class="img"><a href="http://v.youku.com/v_show/id_XMjgyNjA5NzI2NA==.html?spm=a2h3j.8428770.3416059.1#paction"></a></li>
+        </ul>
+        <ul class="dots">
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+        </ul>
+    </div>
+
+
+    <!-- 产品体系 -->
+    <div class="cptx">
+        <h3>产品体系</h3>
+        <div class="cptx-main">
+            <div class="cptx-main-left">
+                <img src="./img/fx.png" alt="">
+            </div>
+            <div class="cptx-main-right">
+                <div class="dsj">大数据基础</div>
+                <p>互联网数据采集系统：专业分布式海量互联网数据采集</p>
+                <p>大数据融合开发平台：全链路、一站式的企业级大数据融合与开发</p>
+                <div class="dsj">大数据应用</div>
+                <p>媒体中央资源平台：一站式解决内容管理的所有难</p>
+                <p>用户画像分析系统：精准标签化的用户分析与管理</p>
+                <p>媒体传播洞察系统：专注于媒体行业的传播监测分析</p>
+                <div class="dsj">大数据分析与可视化</div>
+                <p>数据分析可视化系统：可视化、敏捷的大数据智能分析</p>
+                <div class="dsj">行业应用</div>
+                <p>新媒体运营平台：企业级的可视化新媒体运营协同</p>
+            </div>
+        </div>
+    </div>
+    <!-- 解决方案 -->
+    <div class="jjfa">
+        <h2>解决方案</h2>
+        <p>以数据为驱动，为垂直行业提供一站式整体解决方案</p>
+        <ul class="jjfaa">
+            <li><a href="http://www.cloudpioneer.com.cn/solution.html?HLWCBGZYJC">
+                <img src="./img/index_jjfa1.png" alt="">
+            </a>
+                <a href="http://www.cloudpioneer.com.cn/solution.html?YDXMTJS">
+                    <img src="./img/index_jjfa2.png" alt="">
+                </a>
+                <a href="http://www.cloudpioneer.com.cn/solution.html?DMPJJFA">
+                    <img src="./img/index_jjfa3.png" alt="">
+                </a>
+                <a href="http://www.cloudpioneer.com.cn/solution.html?YDXMTHDYY">
+                    <img src="./img/index_jjfa4.png" alt="">
+                </a>
+                <a href="http://www.cloudpioneer.com.cn/solution.html?MTHYCF">
+                    <img src="./img/index_jjfa5.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 案例展示 -->
+    <div class="alzs">
+        <div class="w">
+            <p>案例展示</p>
+            <ul class="alzs-list">
+                <li><a href="http://www.cloudpioneer.com.cn/cases_page.html?cases_conn14.html">
+                        <img src="./img/i1.jpg" alt="">
+                        <p>“数聚”中央厨房技术平台</p>
+                        <span>多彩贵州网旨在通过耕云科技为其量身打造的“中央厨房”技术平台建设，推进多彩贵州网的技术升级与产业升级，推动多彩贵州网的媒体融合发展.</span>
+                    </a></li>
+                <li><a href="http://www.cloudpioneer.com.cn/cases_page.html?cases_conn13.html">
+                        <img src="./img/i2.jpg" alt="">
+                        <p>“多彩黔行”智慧服务平台</p>
+                        <span>打造微信公众智慧服务平台——集旅游新媒体微信矩阵、新闻、活动、互动留言、景区攻略为一体。</span>
+                    </a></li>
+                <li><a href="http://www.cloudpioneer.com.cn/cases_page.html?cases_conn12.html">
+                        <img src="./img/i3.jpg" alt="">
+                        <p>互联网内容精准提供</p>
+                        <span>
+                            多彩贵州网现已成为贵州省最大的互联网媒体企业，不但担负着贵州新闻门户网站的运营工作，同时还兼顾着全省手机报移动客户端和多个微信公众号的运营工作。因此，多彩贵州网的编辑们每日都需要大量的稿件内容来填充满足工作的需求。
+                        </span>
+                    </a></li>
+                <li><a href="http://www.cloudpioneer.com.cn/cases_page.html?cases_conn05.html">
+                        <img src="./img/i4.jpg" alt="">
+                        <p>多彩贵州网媒体产品推介会H5</p>
+                        <span>
+                            多彩贵州网2016年5月7日将举办大型产品推介会，推介会集宣讲、展示、体验、互动为一体，让客户通过推介会全面了解公司的产品及服务、企业文化、经营理念、合作方式。
+                        </span>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 热点新闻 -->
+    <div class="news">
+        <div class="newsp w">
+            <p>热点新闻</p>
+            <div class="news-flex">
+                <div class="news1">
+                    <img src="./img/news1.jpg" alt="">
+                    <div class="news1-title">
+                        <span>来源:贵州日报</span>
+                        <span>2017-04-26</span>
+                        <div class="news1-title-content">
+                            <a
+                                href="http://news.xinhuanet.com/local/2017-04/26/c_129573389.htm">贵州省大数据发展领导小组发布2017年大数据首批重点企业名单107家企业上榜</a>
+                            <p>为深入贯彻落实省第十二次党代会精神,促进2017年全省大数据发展工作要点落实,经多方征集、认真筛选、综合考量...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news2">
+                    <img src="./img/news2.jpg" alt="">
+                    <div class="news2-title">
+                        <span>来源：多彩贵州网</span>
+                        <span>2017-04-15</span>
+                        <div class="news2-title-content">
+                            <a
+                                href="http://news.xinhuanet.com/local/2017-04/26/c_129573389.htm">贵州省委常委、宣传部部长、副省长慕德贵到多彩贵州网调研</a>
+                            <p>多彩贵州网讯 (本网记者)4月14日上午，贵州省委常委、省委宣传部部长、副省长慕德贵到多彩贵州网有限责任公司调...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news3" style="text-align: left; margin-right: 60px;">
+                    <img src="./img/news3.jpg" alt="">
+                    <div class="news3-title" style="padding-left: 8px;">
+                        <span>来源：多彩贵州网</span>
+                        <span>2016-05-07</span>
+                        <div class="news3-title-content">
+                            <a
+                                href="http://news.xinhuanet.com/local/2017-04/26/c_129573389.htm">2016“多彩贵州有多彩”系列网络文化传播活动之“山地公园省·多彩贵州风”启动仪式</a>
+                            <p style="margin-top: 10px;">多彩贵州有多彩”系列网络文化传播活动之“山地公园省·多彩贵州风”启动仪式暨多彩贵州网媒体产品推介会将在贵阳生...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news4" style="text-align: left;">
+                    <img src="./img/news4.jpg" alt="">
+                    <div class="news4-title" style="padding-left: 8px;">
+                        <span>来源：多彩贵州网</span>
+                        <span>2016-01-28</span>
+                        <div class="news4-title-content">
+                            <a
+                                href="http://news.xinhuanet.com/local/2017-04/26/c_129573389.htm">大数据从业人员解读政府工作报告里的“大数据”</a>
+                            <p style="margin-top: 10px;">12015年贵州的关键词是什么？肯定少不了“大数据”。我们来做一个大数据统计：在2016年《贵州省政府工作报告》...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="http://www.cloudpioneer.com.cn/news_list.html">MORE</a>
+            </button>
+        </div>
+    </div>
+    <!-- 联盟 -->
+    <div class="lm">
+        <p>合作伙伴</p>
+        <img src="./img/lm.jpg" alt="">
+    </div>
+    <!-- 最下面 -->
+    <footer>
+        <div class="footer-help">
+            <div class="cp">
+                <p>产品</p>
+                <dl>
+                    <dt>大数据基础</dt>
+                    <dd><a href="http://www.cloudpioneer.com.cn/prod_dsjrh.html">大数据融合开发平台</a></dd>
+                    <dd><a href="http://www.cloudpioneer.com.cn/prod_hlwsj.html">互联网数据采集系统</a></dd>
+                    <dt>大数据分析与可视化</dt>
+                    <dd><a href="http://www.cloudpioneer.com.cn/prod_sjfx.html">数据分析可视化系统</a></dd>
+                </dl>
+            </div>
+            <div class="blank">
+                <dl>
+                    <dt>大数据应用</dt>
+                    <dd><a href="http://www.cloudpioneer.com.cn/prod_dsjrh.html">媒体中央资源平台</a></dd>
+                    <dd><a href="http://www.cloudpioneer.com.cn/prod_hlwsj.html">媒体传播洞察系统</a></dd>
+                    <dt>行业应用</dt>
+                    <dd><a href="http://www.cloudpioneer.com.cn/prod_sjfx.html">新媒体运营平台</a></dd>
+                </dl>
+            </div>
+            <div class="fa">
+                <p>解决方案</p>
+                <dl>
+                    <dd><a href="http://www.cloudpioneer.com.cn/solution.html?MTHYCF">媒体行业中央厨房解决方案</a></dd>
+                    <dd><a href="http://www.cloudpioneer.com.cn/solution.html?YDXMTJS">移动新媒体建设解决方案</a></dd>
+                    <dd><a href="http://www.cloudpioneer.com.cn/solution.html?YDXMTHDYY">移动新媒体互动运营解决方案</a></dd>
+                    <dd><a href="http://www.cloudpioneer.com.cn/solution.html?DMPJJFA">DMP解决方案</a></dd>
+                    <dd><a href="http://www.cloudpioneer.com.cn/solution.html?HLWCBGZYJC">互联网传播跟踪与监测解决方案</a></dd>
+                </dl>
+            </div>
+            <div class="lx">
+                <h4>联系我们</h4>
+                <p>地址：贵州省贵阳市高新区科技大厦B栋3楼</p>
+                <p>电话：0851-84396122</p>
+                <p>邮箱：gy@cloudpioneer.com.cn</p>
+            </div>
+            <div class="qrcode">
+                <img src="./img/qr.jpg" alt="">
+                <p>耕耘官方微信</p>
+            </div>
+        </div>
+        <ul class="join">
+            <li><a href="http://www.cloudpioneer.com.cn/index.html">首页</a></li>
+            <li class="line"></li>
+            <li><a href="http://www.cloudpioneer.com.cn/about_info.html">关于我们</a></li>
+            <li class="line"></li>
+            <li><a href="http://www.cloudpioneer.com.cn/news_list.html">新闻动态</a></li>
+            <li class="line"></li>
+            <li><a href="http://www.cloudpioneer.com.cn/about_info.html#CONN6">合作伙伴</a></li>
+            <li class="line"></li>
+            <li><a href="http://www.cloudpioneer.com.cn/about_job.html">加入我们</a></li>
+        </ul>
+        <p class="bq">
+            Copyright © 2017 贵州耕云科技有限公司. All Rights Reserved 版权所有 黔ICP备15002649号-1
+        </p>
+    </footer>
+    <script>
+        let imgs = document.querySelector('.imgs')
+        let dots = document.querySelectorAll('.dot')
+        let index = 0;
+        let time;
+
+        function pos() {
+            imgs.style.left = (index * -100) + "%";
+        }
+
+        function add() {
+            if (index >= dots.length - 1) {
+                index = 0;
+            } else {
+                index++;
+            }
+        }
+
+        function desc() {
+            if (index < 1) {
+                index = dots.length - 1;
+            } else {
+                index--;
+            }
+        }
+
+        function timer() {
+            time = setInterval(() => {
+                index++;
+                desc();
+                add();
+                pos();
+            }, 3000);
+        }
+
+        for (let i = 0; i < dots.length; i++) {
+            dots[i].addEventListener('click', function () {
+                index = i;
+                pos();
+                clearInterval(time)
+                timer()
+            })
+        }
+        timer();
+    </script>
+</body>
+
+</html>

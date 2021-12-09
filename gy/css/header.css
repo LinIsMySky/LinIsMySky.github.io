@@ -443,15 +443,15 @@ footer {
 }
 
 .img:nth-child(1) {
-    background-image: url(./img/b1.jpg);
+    background-image: url(../img/b1.jpg);
 }
 
 .img:nth-child(2) {
-    background-image: url(/standard/耕耘科技/img/b2.jpg);
+    background-image: url(../img/b2.jpg);
 }
 
 .img:nth-child(3) {
-    background-image: url(/standard/耕耘科技/img/b3.jpg);
+    background-image: url(../img/b3.jpg);
 }
 
 .img:nth-child(3) a {

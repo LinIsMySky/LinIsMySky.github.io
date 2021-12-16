@@ -1,0 +1,78 @@
+.dsjyy {
+    width: 100%;
+    height: 600px;
+    background: url(../img/banner6.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.jjfa-title {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.jjfa-title>h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.jjfa-title>span {
+    color: #666666;
+}
+
+.zycf {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.ttww{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tt {
+    width: 700px;
+    margin-left: 40px;
+}
+
+.ttww h3 {
+    font-size: 40px;
+    margin-bottom: 45px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.ttww p {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.stars li {
+    margin-bottom: 10px;
+}
+
+.star {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/jjfa_conn_icon.png);
+    margin-right: 15px;
+}
+
+.star1 {
+    background-position: 0px -90px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.stars span:nth-child(2){
+    display: inline-block;
+    width: 600px;
+    color: #333333;
+}

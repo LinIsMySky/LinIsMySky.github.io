@@ -1,0 +1,66 @@
+.alzs-title {
+    width: 100%;
+    height: 300px;
+    background: url(../img/cases_banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.al-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.al-list li {
+    width: 280px;
+    height: 545px;
+    margin: 10px;
+    /* background-color: pink; */
+    box-shadow: -1px 5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+.al-list a {
+    display: block;
+    position: relative;
+    width: 280px;
+    height: 280px;
+}
+
+.al-list span {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+    padding-left: 10px;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.al-list-content {
+    padding: 36px 25px 36px 15px;
+}
+
+.al-list-content p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #333333;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+}
+
+.btn button {
+    width: 85px;
+    height: 25px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #0092DC;
+    background: none;
+    color: #0092DC;
+}

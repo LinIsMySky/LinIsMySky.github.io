@@ -23,34 +23,65 @@
     color: #666666;
 }
 
-.zycf {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
+.jjfa-icon {
+    display: inline-block;
+    width: 75px;
+    height: 70px;
+    background: url(../img/jjfa_img1.png);
 }
 
-.ttww{
+.jjfa-icon1 {
+    background-position: 0 0;
+}
+
+.jjfa-icon2 {
+    background-position: -70px 0;
+}
+
+.jjfa-icon3 {
+    background-position: -140px 0;
+}
+
+.jjfa-icon4 {
+    background-position: -210px 0;
+}
+
+.jjfa-icon5 {
+    background-position: -280px 0;
+}
+
+.jjfa-content1, .jjfa-content2, .jjfa-content3, .jjfa-content4, .jjfa-content5 {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.jjfa-content1-right, .jjfa-content2-right, .jjfa-content3-right, .jjfa-content4-right, .jjfa-content5-right {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    width: 600px;
+    height: 400px;
 }
 
-.tt {
-    width: 700px;
-    margin-left: 40px;
-}
-
-.ttww h3 {
+.jjfa-content1-right h2, .jjfa-content2-right h2, .jjfa-content3-right h2, .jjfa-content4-right h2, .jjfa-content5-right h2 {
     font-size: 40px;
-    margin-bottom: 45px;
-    color: #333333;
     font-weight: 500;
+    color: #666666;
+    margin-bottom: 45px;
 }
 
-.ttww p {
+.jjfa-content1-right p, .jjfa-content3-right p, .jjfa-content4-right p, .jjfa-content5-right p {
     color: #333333;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.stars {
+    list-style: none;
+    margin-top: 50px;
 }
 
 .stars li {
@@ -71,8 +102,79 @@
     margin-top: 5px;
 }
 
-.stars span:nth-child(2){
+.stars span {
+    font-size: 16px;
+}
+
+.stars span:nth-child(2) {
     display: inline-block;
-    width: 600px;
+    width: 550px;
     color: #333333;
+}
+
+.mobiles li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.mobile {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/jjfa_conn_icon.png);
+    margin-right: 15px;
+}
+
+.mobile1 {
+    background-position: 0px -360px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.mobiles span {
+    margin-top: -5px;
+    font-size: 20px;
+    color: #0090E6;
+}
+
+.mobiles p {
+    margin-left: 48px;
+    margin-top: 10px;
+}
+
+.tj {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/jjfa_conn_icon.png);
+    margin-right: 15px;
+}
+
+.tj1 {
+    background-position: 0px 0px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.jjfa-content4-right span {
+    font-size: 14px;
+    color: #666666;
+}
+
+.gous {
+    list-style: none;
+}
+
+.gou {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/jjfa_conn_icon.png);
+    margin-right: 15px;
+}
+
+.gou1 {
+    background-position: 0px -270px;
+    vertical-align: middle;
+    margin-top: 5px;
 }

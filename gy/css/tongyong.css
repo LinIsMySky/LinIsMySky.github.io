@@ -357,6 +357,7 @@ footer {
 
 .lbt {
     position: relative;
+    width: 100%;
 }
 
 .dot {
@@ -409,8 +410,9 @@ footer {
     float: left;
     margin-right: 20px;
     border-bottom: #4A8EFF 5px solid;
-    
+
 }
+
 .alzs-list a {
     display: block;
     width: 280px;
@@ -443,15 +445,15 @@ footer {
 }
 
 .img:nth-child(1) {
-    background-image: url(../img/b1.jpg);
+    background: url(../img/b1.jpg) no-repeat center;
 }
 
 .img:nth-child(2) {
-    background-image: url(../img/b2.jpg);
+    background: url(../img/b2.jpg) no-repeat center;
 }
 
 .img:nth-child(3) {
-    background-image: url(../img/b3.jpg);
+    background: url(../img/b3.jpg) no-repeat center;
 }
 
 .img:nth-child(3) a {
@@ -465,17 +467,18 @@ footer {
     justify-content: space-evenly;
     position: absolute;
     bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 10%;
     z-index: 999;
-    right: 45%;
 }
 
 .dot {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
+    border: 5px solid rgba(255, 255, 255, .5);
     border-radius: 50%;
-    background-color: pink;
 }
 
 .jjfa {
@@ -483,7 +486,7 @@ footer {
     height: 840px;
     position: relative;
     text-align: center;
-    background: linear-gradient(skyblue,#5884FF);
+    background: linear-gradient(skyblue, #5884FF);
 }
 
 .jjfa h2 {
@@ -498,9 +501,39 @@ footer {
 }
 
 .jjfaa {
+    position: relative;
     width: 1200px;
     height: 550px;
     margin: 0 auto;
     overflow: hidden;
+    z-index: 9;
 }
 
+.btns {
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 240px;
+    right: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 300px;
+    z-index: 8;
+}
+
+.pre,.next {
+    display: inline-block;
+    width: 40px;
+    height: 70px;
+    background: url(../img/index_jjfa.png);
+    cursor: pointer;
+    /* background: rgba(255, 255, 255, .5); */
+}
+
+.pre-icon {
+    background-position: 0px 0px ;
+}
+
+.next-icon {
+    background-position: -40px 70px;
+}

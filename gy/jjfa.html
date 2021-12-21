@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/jjfa.css">
+    <link rel="stylesheet" href="./css/tongyong.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+        }
+
+        #box {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+
+        #banner {
+            list-style: none;
+            width: 1400px;
+            height: 270px;
+            position: absolute;
+        }
+
+        #banner>li {
+            position: absolute;
+            left: 0;
+            width: 260px;
+            height: 270px;
+            transition: 0.5s;
+            margin-left: 30px;
+            text-align: center;
+            padding: 22px;
+            border: 1px solid #0090E6;
+            box-shadow: 0 -1px 4px 0px #0090E6,
+                -1px 0px 4px 0px #0090E6,
+                1px 0px 4px 0px #0090E6,
+                0px 1px 4px 0px #0090E6;
+            background-color: #fff;
+        }
+
+        #banner>li>h3 {
+            color: #2A9DFF;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+
+        #banner>li>p {
+            color: #666666;
+            font-weight: 500;
+            font-size: 10px;
+        }
+
+        #banner>img {
+            position: absolute;
+            bottom: -88px;
+            left: 31%;
+        }
+
+        .jjfa-contents {
+            width: 100%;
+            height: 520px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container w">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="shortcut">
+                <li><a href="./index.html">首页</a>
+                </li>
+                <li><a href="javascript:;">产品</a>
+                    <div class="product">
+                        <dl>
+                            <dt>大数据基础</dt>
+                            <dd><a href="./prod_dsjrh.html">大数据融合开发平台</a></dd>
+                            <dd><a href="./prod_dsjrh2.html">互联网数据采集系统</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>大数据分析与可视化</dt>
+                            <dd><a href="./prod_dsjrh3.html">数据分析可视化系统</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>大数据应用</dt>
+                            <dd><a href="./prod_dsjrh4.html">媒体中央资源平台</a></dd>
+                            <dd><a href="./prod_dsjrh5.html">媒体传播洞察系统</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>行业应用</dt>
+                            <dd><a href="./prod_dsjrh6.html">新媒体运营平台</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li><a href="./jjfa.html">解决方案</a>
+                    <ul class="project">
+                        <li><a href="./jjfa.html">媒体行业中央厨房</a></li>
+                        <li><a href="./jjfa.html">互联网传播跟踪与监测</a></li>
+                        <li><a href="./jjfa.html">DMP解决方案</a></li>
+                        <li><a href="./jjfa.html">移动新媒体互动运营</a></li>
+                        <li><a href="./jjfa.html">移动新媒体建设</a></li>
+                    </ul>
+                </li>
+                <li><a href="./alzs.html">案例</a></li>
+                <li><a href="./about.html">关于我们</a>
+                    <ul class="about">
+                        <li><a href="./news.html">新闻动态</a></li>
+                        <li><a href="./bigevent.html">公司简介</a></li>
+                        <li><a href="./about.html#hzhb">合作伙伴</a></li>
+                        <li><a href="./about.html#lxwm">联系我们</a></li>
+                        <li><a href="./job.html">加入我们</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="dsjyy"></div>
+
+    <div class="jjfa-title">
+        <h3>解决方案</h3>
+        <span>以数据为驱动，为垂直行业提供一站式整体解决方案</span>
+    </div>
+
+    <div id="box">
+        <ul id="banner">
+            <li>
+                <a name="mtyy"></a>
+                <span class="jjfa-icon jjfa-icon1"></span>
+                <h3>移动新媒体互动运营</h3>
+                <p>通过多媒体整合的互动营销，激发目标用户的互动参与，引起用户关注度，提高粉丝兴趣，进一步帮助用户提升新媒体运营推广水平</p>
+            </li>
+            <li>
+                <span class="jjfa-icon jjfa-icon2"></span>
+                <h3>移动新媒体建设</h3>
+                <p>提供可视化、拖拽式的新媒体建设工具、定制化的服务，打造独一无二的H5微海报、微信站点，助力新媒体数字化营销</p>
+            </li>
+            <li>
+                <a name="mtcf"></a>
+                <span class="jjfa-icon jjfa-icon3"></span>
+                <h3>媒体行业中央厨房</h3>
+                <p>面向媒体行业提供以数据资产为基础，以构建现代传播体系为目标的媒体融合技术支撑平台，围绕内容生产、传播、运营等核心环节，提供全面的技术与业务支撑</p>
+            </li>
+            <li>
+                <span class="jjfa-icon jjfa-icon4"></span>
+                <h3>互联网传播跟踪与监测</h3>
+                <p>专注于互联网新媒体传播的精细化分析，通过详尽的数据分析，能更深入地了解渠道效果、受众人群，不断提升用户体验，优化运营推广</p>
+            </li>
+            <li>
+                <span class="jjfa-icon jjfa-icon5"></span>
+                <h3>DMP解决方案</h3>
+                <p>帮助企业用户多渠道的管理品牌第一方数据， 更广范、更精准的覆盖目标人群；建立完善的目标人群画像，实现新用户拓展和用户找回，实现线上线下以及跨屏数据的打通等等</p>
+            </li>
+            <img src="./img/jjfa_img2.png" alt="">
+        </ul>
+    </div>
+
+    <div class="jjfa-contents">
+        <div class="jjfa-content1" style="display: none;">
+            <img src="./img/jjfa_conn4.png" alt="">
+            <div class="jjfa-content4-right">
+                <h2>移动新媒体互动运营解决方案</h2>
+                <p>借助移动互联网人机交互技术，提供多种新媒体互动运营服务，激发目标用户的互<br>
+                    动参与，引起用户关注度，提高粉丝兴趣，可更好促进企业营销推广。<br>
+                    主要包括微信互动、微网站互动、H5互动等自由组合的多媒体整合的互动解决方案。</p>
+                <ul class="mobiles">
+                    <li>
+                        <span class="mobile mobile1"></span>
+                        <span>微信投票：投票、抽奖、问卷等互动服务</span>
+                    </li>
+                    <li>
+                        <span class="mobile mobile1"></span>
+                        <span>微网站互动：评论、直播互动服务</span>
+                    </li>
+                    <li>
+                        <span class="mobile mobile1"></span>
+                        <span>H5互动</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="jjfa-content2" style="display: none;">
+            <img src="./img/jjfa_conn5.png" alt="">
+            <div class="jjfa-content5-right">
+                <h2>移动新媒体建设解决方案</h2>
+                <p>移动新媒体建设面临巨大的人力和时间成本，同时信息通过移动互联网的大量新媒体
+                    进行传播，用户无法及时、准确评估传播情况，无法精准了解受众。内容传播是否达
+                    到预期？有多人在看？多人在转发？受众的人群特征是什么？是当前新媒体建设中迫
+                    切需要解决的困惑。</p>
+                <ul class="gous">
+                    <li>
+                        <span class="gou gou1"></span>
+                        <span>定制化建站服务：站点策划、视觉设计、精美海报</span>
+                    </li>
+                    <li>
+                        <span class="gou gou1"></span>
+                        <span>通过拖拽、模块组合的方式，轻松快速地创建您独一无二的站点</span>
+                    </li>
+                    <li>
+                        <span class="gou gou1"></span>
+                        <span>微信公众账号无缝集成，微信、微站轻松管理</span>
+                    </li>
+                    <li>
+                        <span class="gou gou1"></span>
+                        <span>简单强大的H5微海报工具+丰富的H5微海报模板助力新媒体数字化营销</span>
+                    </li>
+                    <li>
+                        <span class="gou gou1"></span>
+                        <span>深度大数据分析，360°评估一手掌握</span>
+                    </li>
+                    <li>
+                        <span class="gou gou1"></span>
+                        <span>全面安全防护，确保数据安全</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="jjfa-content3">
+            <img src="./img/jjfa_conn3.png" alt="">
+            <div class="jjfa-content1-right">
+                <h2>媒体行业中央厨房解决方案</h2>
+                <p>通过耕云科技为媒体企业量身打造的“中央厨房”技术平台建设，将进一步推进媒体
+                    企业的技术升级、产业升级与媒体融合发展，促进从技术驱动、运营支撑、媒体生产
+                    和营销过程进行改革。促进理念的转变——从读者到用户的转变；从流程到数据的转
+                    变；从单一到融合的转变；从封闭到开放的转变。用互联网思维和大数据等先进技术
+                    构建适合于新形势下现代传播体系。</p>
+                <ul class="stars">
+                    <li>
+                        <span class="star star1"></span>
+                        <span>构建媒体企业内容数据资产体系，以媒体数据生态为基础、媒体“融合态”
+                            发展为中心，促进媒体数据资产的融合</span>
+                    </li>
+                    <li>
+                        <span class="star star1"></span>
+                        <span>构建媒体企业用户数据资产体系，以用户数据分析为核心，利用数据智能指
+                            导媒体生产管理，形成媒体数据的完整生态</span>
+                    </li>
+                    <li>
+                        <span class="star star1"></span>
+                        <span>推动媒体企业产业升级，融合企业的媒体资源、用户资源、行业资源、产业
+                            <br>资源</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="jjfa-content4" style="display: none;">
+            <img src="./img/jjfa_conn2.png" alt="">
+            <div class="jjfa-content2-right">
+                <h2>互联网传播跟踪与监测解决方案</h2>
+                <ul class="mobiles">
+                    <li>
+                        <span class="mobile mobile1"></span>
+                        <span>PC网站的传播监测</span>
+                        <p>能够告诉用户访客来自哪里，在网站上做了些什么，有了这些信息，可以帮助用户改善访客在用户的网站上的使用体验，不断提升网站的投资回报率。</p>
+                    </li>
+                    <li>
+                        <span class="mobile mobile1"></span>
+                        <span>移动新媒体的传播监测</span>
+                        <p>为H5应用打造精细化来源分析 、支持营销活动、分享链接、 广告页面跳转统计，掌握渠道效果等。用户留存 多种维度数据任意交叉组合 帮助快速定位推广效果、用户质量；数据图表理解简单，生动展现
+                            用户基本属性、行为特征爱好等 有效筛选用户，真正了解用户喜好。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="jjfa-content5" style="display: none;">
+            <img src="./img/jjfa_conn1.png" alt="">
+            <div class="jjfa-content3-right">
+                <h2>DMP解决方案</h2>
+                <p>致力于为面向终端消费者的品牌企业提供基础数据管理平台(DMP)及定向行业的大
+                    数据服务解决方案。其长期目标是通过帮助企业管理和运营数据资产，实现数据的
+                    变现和增值。</p>
+                <ul class="stars">
+                    <li>
+                        <span class="tj tj1"></span>
+                        <span>能够管理多种来源和多种类型（结构化、半结构化、非结构化）的数据信息</span>
+                    </li>
+                    <li>
+                        <span class="tj tj1"></span>
+                        <span>支持“从小到大”（线性扩展、渐近式）构建企业统一数据中心</span>
+                    </li>
+                    <li>
+                        <span class="tj tj1"></span>
+                        <span>提供数据治理、数据融合、分析建模等能力，并对外支持企业各种价值链应用</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-help">
+            <div class="cp">
+                <p>产品</p>
+                <dl>
+                    <dt>大数据基础</dt>
+                    <dd><a href="./prod_dsjrh.html">大数据融合开发平台</a></dd>
+                    <dd><a href="./prod_dsjrh2.html">互联网数据采集系统</a></dd>
+                    <dt>大数据分析与可视化</dt>
+                    <dd><a href="./prod_dsjrh3.html">数据分析可视化系统</a></dd>
+                </dl>
+            </div>
+            <div class="blank">
+                <dl>
+                    <dt>大数据应用</dt>
+                    <dd><a href="./prod_dsjrh4.html">媒体中央资源平台</a></dd>
+                    <dd><a href="./prod_dsjrh5.html">媒体传播洞察系统</a></dd>
+                    <dt>行业应用</dt>
+                    <dd><a href="./prod_dsjrh6.html">新媒体运营平台</a></dd>
+                </dl>
+            </div>
+            <div class="fa">
+                <p>解决方案</p>
+                <dl>
+                    <dd><a href="./jjfa.html">媒体行业中央厨房解决方案</a></dd>
+                    <dd><a href="./jjfa.html">移动新媒体建设解决方案</a></dd>
+                    <dd><a href="./jjfa.html">移动新媒体互动运营解决方案</a></dd>
+                    <dd><a href="./jjfa.html">DMP解决方案</a></dd>
+                    <dd><a href="./jjfa.html">互联网传播跟踪与监测解决方案</a></dd>
+                </dl>
+            </div>
+            <div class="lx">
+                <h4>联系我们</h4>
+                <p>地址：贵州省贵阳市高新区科技大厦B栋3楼</p>
+                <p>电话：0851-84396122</p>
+                <p>邮箱：gy@cloudpioneer.com.cn</p>
+            </div>
+            <div class="qrcode">
+                <img src="./img/qr.jpg" alt="">
+                <p>耕耘官方微信</p>
+            </div>
+        </div>
+        <ul class="join">
+            <li><a href="./index.html">首页</a></li>
+            <li class="line"></li>
+            <li><a href="./about.html">关于我们</a></li>
+            <li class="line"></li>
+            <li><a href="./news.html">新闻动态</a></li>
+            <li class="line"></li>
+            <li><a href="./about.html#hzhb">合作伙伴</a></li>
+            <li class="line"></li>
+            <li><a href="./job.html">加入我们</a></li>
+        </ul>
+        <p class="bq">
+            Copyright © 2017 贵州耕云科技有限公司. All Rights Reserved 版权所有 黔ICP备15002649号-1
+        </p>
+    </footer>
+
+    <script>
+        let jjfadiv = document.querySelector('.jjfa-contents').querySelectorAll('.jjfa-contents>div')
+        let ul = document.getElementById('banner');
+        let lis = document.getElementById('banner').querySelectorAll('li')
+        let sz = [];
+        let szdiv = []
+        for (let i = 0; i < jjfadiv.length; i++) {
+            szdiv.push(jjfadiv[i]);
+            szdiv[i].name = i;
+        }
+
+        for (let i = 0; i < lis.length; i++) {
+            sz.push(lis[i]);
+            sz[i].id = i
+
+            lis[i].onclick = function () {
+                let dis = Math.max(sz.indexOf(lis[i]), 2) - Math.min(sz.indexOf(lis[i]), 2)
+                if (sz.indexOf(lis[i]) > 2) {
+                    while (dis--)
+                        pre()
+                } else if (sz.indexOf(lis[i]) < 2) {
+                    while (dis--)
+                        next()
+                }
+            }
+        }
+        let len = sz.length - 1;
+        sz[len - 4].style.left = '0'
+        sz[len - 3].style.left = '270px'
+        sz[len - 2].style.left = '540px'
+        sz[len - 2].style.height = '300px'
+        sz[len - 2].style.marginTop = '-15px'
+        sz[len - 1].style.left = '810px'
+        sz[len].style.left = '1080px'
+
+        function next() {
+            let give_up = sz[len];
+            sz.pop()
+            sz.unshift(give_up);
+            for (let i = 0; i <= len; i++) {
+                sz[i].style.height = '270px'
+                sz[i].style.marginTop = '0px'
+            }
+            sz[len - 4].style.left = '0'
+            sz[len - 3].style.left = '270px'
+            sz[len - 2].style.left = '540px'
+            sz[len - 2].style.height = '300px'
+            sz[len - 2].style.marginTop = '-15px'
+            sz[len - 1].style.left = '810px'
+            sz[len].style.left = '1080px'
+            sync_szdiv()
+        }
+
+        function pre() {
+            let give_up = sz[0];
+            sz.shift()
+            sz.push(give_up);
+            for (let i = 0; i <= len; i++) {
+                sz[i].style.height = '270px'
+                sz[i].style.marginTop = '0px'
+            }
+            sz[len - 4].style.left = '0'
+            sz[len - 3].style.left = '270px'
+            sz[len - 2].style.left = '540px'
+            sz[len - 2].style.height = '300px'
+            sz[len - 2].style.marginTop = '-15px'
+            sz[len - 1].style.left = '810px'
+            sz[len].style.left = '1080px'
+            sync_szdiv()
+        }
+
+        function sync_szdiv() {
+            for (let i = 0; i < szdiv.length; i++) {
+                if (szdiv[i].name == sz[len - 2].id) {
+                    szdiv[i].style.display = "flex"
+                } else {
+                    szdiv[i].style.display = "none"
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
